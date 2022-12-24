@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        div.upload {
+            text-align: center;
+        }
+        
+        input {
+            align-items: center;
+        }
+        
+        body {
+            background-color: aliceblue;
+        }
+        
+        label {
+            color: black;
+        }
+    </style>
+
+    <script>
+        function submit_Project() {
+            alert("Assignments Submitted Sucessfully");
+        }
+    </script>
+
+</head>
+
+
+
+<body>
+    <div class="top">
+        <h1>Upload Your Projects Here</h1>
+    </div>
+    <div class="upload">
+
+        <br>
+        <label id="one">Minor Project:</label>&nbsp;&nbsp;&nbsp;
+        <input type="file" name="one">
+        <br><br>
+
+        <label id="two">Major Project:</label>&nbsp;&nbsp;&nbsp;
+        <input type="file" name="two">
+        <br><br>
+
+        <br>
+        <br>
+        <input type="button" value="Final Submit" onclick="submit_Project()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+    </div>
+
+</body>
+
+</html>

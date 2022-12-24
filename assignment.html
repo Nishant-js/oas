@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        div.upload {
+            text-align: center;
+        }
+        
+        input {
+            align-items: center;
+        }
+        
+        label {
+            color: black;
+        }
+    </style>
+    <script>
+        function submit_assignment() {
+            alert("Assignments Submitted Sucessfully");
+        }
+    </script>
+
+</head>
+
+
+
+<body>
+    <div class="top">
+        <h1>Upload Pdf Document to Corresponding fields below</h1>
+    </div>
+    <div class="upload">
+
+        <br>
+        <label id="one">Assignment 1:</label>&nbsp;&nbsp;&nbsp;
+        <input type="file" name="one">
+        <br><br>
+
+        <label id="two">Assignment 2:</label>&nbsp;&nbsp;&nbsp;
+        <input type="file" name="two">
+        <br><br>
+
+        <label id="three">Assignment 3:</label>&nbsp;&nbsp;&nbsp;
+        <input type="file" name="three">
+        <br><br>
+
+        <label id="four">Assignment 4:</label>&nbsp;&nbsp;&nbsp;
+        <input type="file" name="four">
+
+        <br>
+        <br>
+        <input type="button" value="Final Submit" onclick="submit_assignment()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+    </div>
+
+</body>
+
+</html>
